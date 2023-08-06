@@ -1,0 +1,22 @@
+{
+  "name": "action-regex-match",
+  "version": "1.0.0",
+  "description": "GitHub Action to do regex matching",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/kaisugi/action-regex-match.git",
+  "author": "Kaito Sugimoto <hellorusk1998@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "@typescript-eslint/utils": "^6.2.1",
+    "eslint": "^8.46.0",
+    "typescript": "^5.1.6"
+  }
+}
