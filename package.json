@@ -4,7 +4,7 @@
   "description": "GitHub Action to do regex matching",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && ncc build"
   },
   "repository": "https://github.com/kaisugi/action-regex-match.git",
   "author": "Kaito Sugimoto <hellorusk1998@gmail.com>",
@@ -16,6 +16,7 @@
     "@typescript-eslint/eslint-plugin": "^6.2.1",
     "@typescript-eslint/parser": "^6.2.1",
     "@typescript-eslint/utils": "^6.2.1",
+    "@vercel/ncc": "^0.36.1",
     "eslint": "^8.46.0",
     "typescript": "^5.1.6"
   }
