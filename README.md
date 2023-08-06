@@ -38,7 +38,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: kaisugi/action-regex-match@main
+      - uses: kaisugi/action-regex-match@v1.0.0
         id: regex-match
         with:
           text: ${{ github.event.comment.body }}
@@ -62,7 +62,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: kaisugi/action-regex-match@main
+      - uses: kaisugi/action-regex-match@v1.0.0
         id: regex-match
         with:
           text: ${{ github.event.comment.body }}
