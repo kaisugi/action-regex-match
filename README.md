@@ -36,7 +36,7 @@ jobs:
   create_comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - uses: kaisugi/action-regex-match@main
         id: regex-match
@@ -60,7 +60,7 @@ jobs:
   create_comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - uses: kaisugi/action-regex-match@main
         id: regex-match
