@@ -19,5 +19,8 @@
     "@vercel/ncc": "^0.36.1",
     "eslint": "^8.46.0",
     "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=24.0.0"
   }
 }
